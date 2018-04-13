@@ -20,6 +20,7 @@ import java.awt.Toolkit;
 
 import javax.swing.JSeparator;
 import javax.swing.JTextPane;
+import javax.swing.JPanel;
 
 public class Calculator {
 
@@ -74,8 +75,7 @@ public class Calculator {
 		frmCalculator.setBounds(100, 100, 470, 615);
 		frmCalculator.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frmCalculator.getContentPane().setLayout(null);
-		Image icon = Toolkit.getDefaultToolkit().getImage("calculator-outline.png");
-	    frmCalculator.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\rhyde\\eclipse-workspace\\Calculator_Main\\img\\calculator-outline.png"));
+	    frmCalculator.setIconImage(Toolkit.getDefaultToolkit().getImage(Calculator.class.getResource("/img/calculator-outline.png")));
 		
 		JButton btnClear = new JButton("Clear");
 		btnClear.setForeground(Color.WHITE);
