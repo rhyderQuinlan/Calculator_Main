@@ -11,7 +11,7 @@ The final product had the following functionality:
   •	Subtraction
   •	Multiplication
   •	Division
-  •	Equals
+  •	Equal
   
   Intermediate
   •	Memory Storage
