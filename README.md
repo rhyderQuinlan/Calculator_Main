@@ -12,10 +12,12 @@ The final product had the following functionality:
   •	Multiplication
   •	Division
   •	Equals
+  
   Intermediate
   •	Memory Storage
   •	Screen Clear
   •	Error Handling
+  
   Extras
   •	Mod function
   •	Square Root Function
